@@ -9,11 +9,9 @@
 
 ---
 
-## **Week 1 — Data Preparation & Power BI Basics**
-**Goal:** Understand the Power BI ecosystem and learn how to prepare clean, structured data.
+## Week 1 — Data Preparation & Power BI Basics
 
-### 🔹 Topics
-- Power BI interface and workflow (Desktop, Service overview)
+- Power BI interface and workflow (Desktop, Service)
 - Data import from Excel, CSV, and SQL databases
 - Understanding Power Query Editor
 - Data profiling (column quality, distribution, profile)
@@ -22,38 +20,27 @@
   - Merge and append queries
 - Basic data model setup (naming conventions, data types, relationships)
 
-### 💻 Example Steps
+**Example Steps**:
+
 ```text
 1. Load sales and customer data from Excel.
 2. Use Power Query to remove null values and trim text columns.
 3. Merge customer info into sales data for enrichment.
 4. Load transformed data into the model view.
+```
 
-Week 2 — Data Modelling & DAX Fundamentals
+## Week 2 — Data Modelling & DAX Fundamentals
 
-Goal: Build a strong data model and use DAX for calculated columns and measures.
+- Star schema design: fact and dimension tables
+- Relationships (one-to-many, cross filter direction)
+- Calculated columns vs. measures
+- DAX basics:
+  - SUM, AVERAGE, COUNTROWS, DISTINCTCOUNT, CALCULATE, FILTER, ALL
+- Conditional logic: IF, SWITCH
+- Time intelligence:
+  - TOTALYTD, SAMEPERIODLASTYEAR, DATEADD
 
-🔹 Topics
-
-Star schema design: fact and dimension tables
-
-Relationships (one-to-many, cross filter direction)
-
-Calculated columns vs. measures
-
-DAX basics:
-
-SUM, AVERAGE, COUNTROWS, DISTINCTCOUNT
-
-CALCULATE, FILTER, ALL
-
-Conditional logic: IF, SWITCH
-
-Time intelligence:
-
-TOTALYTD, SAMEPERIODLASTYEAR, DATEADD
-
-💻 Example DAX
+**Example DAX**:
 
 ```dax
 -- Total Sales
@@ -70,27 +57,16 @@ RETURN
 DIVIDE(CurrentYear - LastYear, LastYear)
 ```
 
-Week 3 — Data Visualisation & Interactivity
+## Week 3 — Data Visualisation & Interactivity
 
-Goal: Create interactive dashboards that communicate insights effectively.
+- Chart types and when to use them:
+  - Bar/Column, Line, Card, Pie, Map, Matrix
+- Hierarchies (e.g., Year > Quarter > Month)
+- Slicers, Filters, and Drill-throughs
+- Conditional formatting and custom tooltips
+- Using bookmarks for dynamic storytelling
 
-🔹 Topics
-
-Chart types and when to use them:
-
-Bar/Column, Line, Card, Pie, Map, Matrix
-
-Hierarchies (e.g., Year → Quarter → Month)
-
-Slicers, Filters, and Drill-throughs
-
-Conditional formatting and custom tooltips
-
-Using bookmarks for dynamic storytelling
-
-Syncing slicers across pages
-
-💻 Example Use Cases
+**Example Use Cases**:
 
 ```text
 1. Create a Sales Overview dashboard with KPIs and region-wise charts.
@@ -99,41 +75,15 @@ Syncing slicers across pages
 4. Add bookmarks for “Executive View” and “Detailed Analysis”.
 ```
 
-Week 4 — Dashboard Design, Publishing & Storytelling
+## Week 4 — Dashboard Design, Publishing & Storytelling
 
-Goal: Refine dashboards for clarity, publish them, and share insights effectively.
-
-🔹 Topics
-
-Dashboard layout and design principles:
-
-Consistent alignment, colours, and typography
-
-Clear KPIs at the top, supporting visuals below
-
-Storytelling techniques for business insights
-
-Using Power BI Service:
-
-Publishing reports
-
-Creating and managing workspaces
-
-Sharing dashboards and setting permissions
-
-Report refresh and basic automation
-
-Export options (PDF, PowerPoint, shared link)
-
-💻 Final Project Idea
-
-```text
-📊 Build a 2-page Power BI dashboard:
-Page 1: Sales Performance Overview
-Page 2: Customer Insights (Age, Region, Purchase Trends)
-
-Include:
-- DAX-based KPIs (Total Sales, YoY Growth, Top 5 Customers)
-- Interactive slicers and bookmarks
-- Clean, minimal layout ready for stakeholder presentation
-```
+- Dashboard layout and design principles:
+  - Consistent alignment, colours, and typography
+- Clear KPIs at the top, supporting visuals below
+- Storytelling techniques for business insights
+- Using Power BI Service:
+- Publishing reports
+- Creating and managing workspaces
+- Sharing dashboards and setting permissions
+- Report refresh and basic automation
+- Export options (PDF, PowerPoint, shared link)
