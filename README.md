@@ -1,14 +1,5 @@
 # Power BI for Data Analysts — 4-Week Roadmap
 
-### Learning Objectives
-
-- Clean and model data using Power Query
-- Create calculated columns and DAX measures
-- Build and publish interactive dashboards
-- Tell compelling data stories with Power BI visuals
-
----
-
 ## Week 1 — Data Preparation & Power BI Basics
 
 - **Definition**:
