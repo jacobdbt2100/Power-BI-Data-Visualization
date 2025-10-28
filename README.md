@@ -1,6 +1,6 @@
 # Power BI for Data Analysts — 4-Week Roadmap
 
-## Week 1 — Data Preparation & Power BI Basics
+## Week 1 — Power BI Basics & Data Preparation
 
 - **Definition**:
   - Data visualization is the practice of presenting data in graphical or pictorial formats—such as charts, graphs, maps, and dashboards—to clearly communicate patterns, trends, and insights.
