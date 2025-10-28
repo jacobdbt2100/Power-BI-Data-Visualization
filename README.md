@@ -80,3 +80,4 @@ DIVIDE(CurrentYear - LastYear, LastYear)
 - Sharing dashboards and setting permissions
 - Report refresh and basic automation
 - Export options (PDF, PowerPoint, shared link)
+- Final **Interactive Dashboard** Project
