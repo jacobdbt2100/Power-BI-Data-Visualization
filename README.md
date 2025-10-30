@@ -8,7 +8,15 @@
 
   `Power BI` is a business intelligence tool developed by Microsoft that allows users to connect, transform, analyze, and visualize data from multiple sources.
 
-- Power BI interface and workflow (Desktop, Service)
+- `Power BI` main Components:
+  - `Desktop:` Windows application for building reports and data models.
+  - `Service (Power BI Online):` cloud-based platform for publishing, sharing, and collaborating on reports and dashboards.
+  - `Mobile:` mobile apps for viewing and interacting with reports on phones and tablets.
+  - `Gateway:` a bridge that connects on-premises data sources to Power BI Service for scheduled refreshes.
+  - `Report Server:` on-premises server for hosting and managing Power BI reports within an organization’s own infrastructure.
+  - `Embedded:` a service for developers to embed Power BI reports and dashboards into custom applications.
+  - `Power Query:` data connection and transformation engine used across Power BI for data cleaning and preparation.
+  - `Power Pivot:` data modelling engine that allows creating relationships, measures, and calculated columns using DAX.
 
 - Power BI Desktop, with three main views (or panes), each serving a different purpose:
   - `Report View:` build and design dashboards using visuals, charts, and slicers.
