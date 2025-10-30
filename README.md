@@ -24,23 +24,6 @@
 - Time intelligence:
   - TOTALYTD, SAMEPERIODLASTYEAR, DATEADD
 
-**Example DAX:**
-
-```dax
--- Total Sales
-Total Sales = SUM(Sales[SalesAmount])
-
--- Profit Margin
-Profit Margin % = DIVIDE(SUM(Sales[Profit]), SUM(Sales[SalesAmount]))
-
--- Sales Growth YoY
-Sales Growth % = 
-VAR CurrentYear = [Total Sales]
-VAR LastYear = CALCULATE([Total Sales], DATEADD('Date'[Date], -1, YEAR))
-RETURN
-DIVIDE(CurrentYear - LastYear, LastYear)
-```
-
 ## Week 3 — Data Visualisation & Interactivity
 
 - Chart types and when to use them:
@@ -49,13 +32,6 @@ DIVIDE(CurrentYear - LastYear, LastYear)
 - Slicers, Filters, and Drill-throughs
 - Conditional formatting and custom tooltips
 - Using bookmarks for dynamic storytelling
-
-**Example Use Cases:**
-
-1. Create a Sales Overview dashboard with KPIs and region-wise charts.
-2. Add a drill-through page for Customer Details.
-3. Use slicers to filter by product category and date.
-4. Add bookmarks for “Executive View” and “Detailed Analysis”.
 
 ## Week 4 — Dashboard Design, Publishing & Storytelling
 
