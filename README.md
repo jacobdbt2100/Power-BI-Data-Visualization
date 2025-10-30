@@ -13,13 +13,6 @@
   - Merge and append queries
 - Basic data model setup (naming conventions, data types, relationships)
 
-**Example Steps:**
-
-1. Load sales and customer data from Excel.
-2. Use Power Query to remove null values and trim text columns.
-3. Merge customer info into sales data for enrichment.
-4. Load transformed data into the model view.
-
 ## Week 2 — Data Modelling & DAX Fundamentals
 
 - Star schema design: fact and dimension tables
