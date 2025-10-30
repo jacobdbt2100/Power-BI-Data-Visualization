@@ -2,7 +2,12 @@
 
 ## Week 1 — Power BI Basics & Data Preparation
 
-- **Definition**: `Data visualization` is the practice of presenting data in graphical or pictorial formats—such as charts, graphs, maps, and dashboards—to clearly communicate patterns, trends, and insights.
+- **Definition**:
+
+  `Data visualization` is the practice of presenting data in graphical or pictorial formats—such as charts, graphs, maps, and dashboards—to clearly communicate patterns, trends, and insights.
+
+  `Power BI` is a business intelligence tool developed by Microsoft that allows users to connect, transform, analyze, and visualize data from multiple sources.
+  
 - Power BI interface and workflow (Desktop, Service)
 - Data import from Excel, CSV, and SQL databases
 - Understanding Power Query Editor
