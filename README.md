@@ -13,7 +13,7 @@
   - Merge and append queries
 - Basic data model setup (naming conventions, data types, relationships)
 
-**Example Steps**:
+**Example Steps:**
 
 1. Load sales and customer data from Excel.
 2. Use Power Query to remove null values and trim text columns.
@@ -31,7 +31,7 @@
 - Time intelligence:
   - TOTALYTD, SAMEPERIODLASTYEAR, DATEADD
 
-**Example DAX**:
+**Example DAX:**
 
 ```dax
 -- Total Sales
@@ -57,7 +57,7 @@ DIVIDE(CurrentYear - LastYear, LastYear)
 - Conditional formatting and custom tooltips
 - Using bookmarks for dynamic storytelling
 
-**Example Use Cases**:
+**Example Use Cases:**
 
 1. Create a Sales Overview dashboard with KPIs and region-wise charts.
 2. Add a drill-through page for Customer Details.
