@@ -15,12 +15,10 @@
 
 **Example Steps**:
 
-```text
 1. Load sales and customer data from Excel.
 2. Use Power Query to remove null values and trim text columns.
 3. Merge customer info into sales data for enrichment.
 4. Load transformed data into the model view.
-```
 
 ## Week 2 — Data Modelling & DAX Fundamentals
 
@@ -61,12 +59,10 @@ DIVIDE(CurrentYear - LastYear, LastYear)
 
 **Example Use Cases**:
 
-```text
 1. Create a Sales Overview dashboard with KPIs and region-wise charts.
 2. Add a drill-through page for Customer Details.
 3. Use slicers to filter by product category and date.
 4. Add bookmarks for “Executive View” and “Detailed Analysis”.
-```
 
 ## Week 4 — Dashboard Design, Publishing & Storytelling
 
