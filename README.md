@@ -7,8 +7,14 @@
   `Data visualization` is the practice of presenting data in graphical or pictorial formats—such as charts, graphs, maps, and dashboards—to clearly communicate patterns, trends, and insights.
 
   `Power BI` is a business intelligence tool developed by Microsoft that allows users to connect, transform, analyze, and visualize data from multiple sources.
-  
+
 - Power BI interface and workflow (Desktop, Service)
+
+- Power BI Desktop, with three main views (or panes), each serving a different purpose:
+  - `Report View:` build and design dashboards using visuals, charts, and slicers.
+  - `Data View:` see and explore loaded tables after data has been imported.
+  - `Model View:` define relationships between tables.
+
 - Data import from Excel, CSV, and SQL databases
 - Understanding Power Query Editor
 - Data profiling (column quality, distribution, profile)
